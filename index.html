@@ -14,7 +14,45 @@ John Brewer's Github Page
         background: #eeeeee;
         }
     
-    h1,h2,h3{line-height:1.2}
+    h1,h2,h3 {line-height:1.2}
+
+    p
+    {
+        text-align:justify
+    }
+    
+    h2
+    {
+        text-align:center
+    }
+
+    h2:before {
+        content: "-";
+    }
+    h2:after {
+        content: "-";
+    }
+    .repo_header a {
+        color:#ffffff;
+        text-decoration: none;
+    }
+
+    .repo_desc a {
+        color:#444;
+        text-decoration: none;
+    }
+
+    .repo_header {
+        font-family: monospace;
+        background-color:#333333;
+        color: #eeeeee;
+        border-radius: 5px;
+        padding: 2px;
+        padding-left: 10px;
+        
+        }
+
+    .repo_desc {font-family: monospace;}
 </style>
 </head>
 <body>
@@ -69,25 +107,25 @@ John Brewer's Github Page
 
 <h2>Original Github Repositories</h2>
 
-<h3><a href="https://github.com/Bronzite/HIndex">HIndex</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/HIndex">HIndex</a></h3>
 
-<p>
+<p class="repo_desc">
     This is an H-Index calculator for BoardGameGeek's API.  It computes the 
     maximum number n such that a player has played n different board games
     n or more times.
 </p>
 
-<h3><a href="https://github.com/Bronzite/TwitterMazeRunner">Twitter Maze Runner</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/TwitterMazeRunner">Twitter Maze Runner</a></h3>
 
-<p>
+<p class="repo_desc">
     This was a Twitter bot that allowed users to reply to steer the bot 
     through a maze.  It no long functions after 2023 updates to the Twitter
     API.
 </p>
 
-<h3><a href="https://github.com/Bronzite/TuringMachine">Turing Machine</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/TuringMachine">Turing Machine</a></h3>
 
-<p>
+<p class="repo_desc">
     A very simple set of classes that allow for representing a Turing Machine.
     It takes in a set of states and transitions between those states, and can
     run the machine.  There's also a console application in the solution that
@@ -96,9 +134,9 @@ John Brewer's Github Page
     machines.
 </p>
 
-<h3><a href="https://github.com/Bronzite/Kmean">KMean</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/Kmean">KMean</a></h3>
 
-<p>
+<p class="repo_desc">
     KMean is a class for computing the 
     <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means</a> of a
     given set of double nodes in cartesian space.  It is very poorly documented
@@ -106,70 +144,70 @@ John Brewer's Github Page
     rewrite it in the future.
 </p>
 
-<h3><a href="https://github.com/Bronzite/Claymore">Claymore</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/Claymore">Claymore</a></h3>
 
-<p>
+<p class="repo_desc">
     Claymore is a web app I used to run a BattleTech campaign in 2017 and 2018.
     It is clunky, but effective, and it taught me a great deal about complex
     ASP.NET maintenance and upkeep.
 </p>
 
-<h3><a href="https://github.com/Bronzite/NetworkingSimulation">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/NetworkingSimulation">
     NetworkingSimulation</a></h3>
 
-<p>
+<p class="repo_desc">
     This is a project that provides a simple simulation of Ethernet devices.
     At Deep Core Data, we used this is a training tool for new employees.
 </p>
 
-<h3><a href="https://github.com/Bronzite/CompareLists">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/CompareLists">
     CompareLists</a></h3>
 
-<p>
+<p class="repo_desc">
     A short program that takes in a list of strings as a set of files and 
     outputs a file with which file each string appears in.
 </p>
 
-<h3><a href="https://github.com/Bronzite/DNSTap">DNSTap</a></h3>
+<h3 class="repo_header"><a href="https://github.com/Bronzite/DNSTap">DNSTap</a></h3>
 
-<p>
+<p class="repo_desc">
     A program that listens for DNS requests and forwards them to another DNS
     Server.  It outputs each DNS packet passed to provide visibility into
     requests being made by local applications.
 </p>
 
-<h3><a href="https://github.com/Bronzite/BattleTechCanonWarShips">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/BattleTechCanonWarShips">
 BattleTech Canon WarShips</a></h3>
 
-<p>
+<p class="repo_desc">
     This is an evolution of a web app created in the early 2010's that listed
     all known WarShips in the BattleTech canon, and the references to them.  
     This database is now long since out-of-date.
 </p>
 
-<h3><a href="https://github.com/Bronzite/FileDuplicationUtility">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/FileDuplicationUtility">
 FileDuplicationUtility</a></h3>
 
-<p>
+<p class="repo_desc">
     This is a tool that scans a directory and computes the hash values of all
     files in the directory to determine which are duplicates of others.  The
     data is then output as JSON.
 </p>
 
-<h3><a href="https://github.com/Bronzite/BattleTech.NET">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/BattleTech.NET">
 BattleTech.NET</a></h3>
 
-<p>
+<p class="repo_desc">
     This is a library that has general data processing tools for BattleTech
     objects.  My intention with this library was to make it easier to write
     other tools that analyze BattleTech information, such as unit compositions
     or calculated values such as BV2.
 </p>
 
-<h3><a href="https://github.com/Bronzite/Altair8800Emulator">
+<h3 class="repo_header"><a href="https://github.com/Bronzite/Altair8800Emulator">
 Altair8800Emulator</a></h3>
 
-<p>
+<p class="repo_desc">
     A library that provides a simple emulation of an Altair 8800 system.  As 
     built it doesn't handle devices like monitors, keyboards, or disks, but it
     is intended to be extendable to use simulated devices practically.
