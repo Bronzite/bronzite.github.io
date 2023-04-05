@@ -4,6 +4,12 @@
 John Brewer's Github Page
 </title>
 <style type="text/css">
+    h1,h2,aside
+    {
+        font-family: sans-serif;
+        text-align: center;
+    }
+
     body{
         margin:40px auto;
         max-width:650px;
@@ -20,11 +26,7 @@ John Brewer's Github Page
     {
         text-align:justify
     }
-    
-    h2
-    {
-        text-align:center
-    }
+
 
     h2:before {
         content: "-";
@@ -53,6 +55,19 @@ John Brewer's Github Page
         }
 
     .repo_desc {font-family: monospace;}
+
+    .sociallogo {
+        width: 64px;
+        height: 64px;
+        padding: 5px;
+        align-content: center;
+    }
+
+    .socialblock
+    {
+        margin:auto;
+        width:50%;
+    }
 </style>
 </head>
 <body>
@@ -214,11 +229,12 @@ Altair8800Emulator</a></h3>
 </p>
 
 <h2>Social Media Links</h2>
-<ul>
-<li><a href="https://www.twitter.com/Bronzite">Bronzite on Twitter</a></li>
-<li><a href="https://www.reddit.com/u/Bronzite">Bronzite on Reddit</a></li>
-<li><a href="https://www.instagram.com/Bronzite">Bronzite on Instagram</a></li>
-<li><a href="https://mastodon.social/@Bronzite">Bronzite on Mastodon.social</a></li>
-</ul>
+<div class="socialblock">
+    <a href="https://www.twitter.com/Bronzite"><img class="sociallogo" src="./images/twitter.svg" /></a>
+    <a href="https://www.reddit.com/u/Bronzite"><img class="sociallogo" src="./images/reddit.svg" /></a>
+    <a href="https://www.instagram.com/Bronzite01"><img class="sociallogo" src="./images/instagram.svg" /></a>
+    <a href="https://mastodon.social/@Bronzite"><img class="sociallogo" src="./images/mastodon.svg" /></a>
+</div>
+
 </body>
 </html>
