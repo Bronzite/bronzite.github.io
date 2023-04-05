@@ -1,0 +1,70 @@
+h1,h2,aside
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px;
+    background: #eeeeee;
+    }
+
+h1,h2,h3 {line-height:1.2}
+
+p
+{
+    text-align:justify;
+}
+
+p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h2:before {
+    content: "-";
+}
+h2:after {
+    content: "-";
+}
+.repo_header a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.repo_desc a {
+    color:#444;
+    text-decoration: none;
+}
+
+.repo_header {
+    font-family: monospace;
+    background-color:#333333;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    
+    }
+
+.repo_desc {font-family: monospace;}
+
+.sociallogo {
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+    align-content: center;
+}
+
+.socialblock
+{
+    margin:auto;
+    width:50%;
+}
